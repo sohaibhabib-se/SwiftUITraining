@@ -14,6 +14,8 @@
 		DA45C8912C188E1A00EC2DF6 /* SwiftUITrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8902C188E1A00EC2DF6 /* SwiftUITrainingTests.swift */; };
 		DA45C89B2C188E1A00EC2DF6 /* SwiftUITrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C89A2C188E1A00EC2DF6 /* SwiftUITrainingUITests.swift */; };
 		DA45C89D2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C89C2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift */; };
+		DA45C8AC2C188E9B00EC2DF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */; };
+		DA45C8AE2C1983B600EC2DF6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DA45C8962C188E1A00EC2DF6 /* SwiftUITrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA45C89A2C188E1A00EC2DF6 /* SwiftUITrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrainingUITests.swift; sourceTree = "<group>"; };
 		DA45C89C2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				DA45C8812C188E1900EC2DF6 /* ContentView.swift */,
 				DA45C8832C188E1A00EC2DF6 /* Assets.xcassets */,
 				DA45C8852C188E1A00EC2DF6 /* Preview Content */,
+				DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */,
+				DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */,
 			);
 			path = SwiftUITraining;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA45C8AE2C1983B600EC2DF6 /* SignUpView.swift in Sources */,
+				DA45C8AC2C188E9B00EC2DF6 /* LoginView.swift in Sources */,
 				DA45C8822C188E1900EC2DF6 /* ContentView.swift in Sources */,
 				DA45C8802C188E1900EC2DF6 /* SwiftUITrainingApp.swift in Sources */,
 			);
