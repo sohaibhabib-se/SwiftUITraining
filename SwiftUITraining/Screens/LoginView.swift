@@ -41,19 +41,20 @@ struct LoginView: View {
             
             Spacer()
                 .frame(height: 100)
-            Button("Log In", action: {
-                print("Button Pressed")
-            })
-            .buttonStyle(.plain)
-            .frame(height: 50)
-            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-//            .padding(.all, 10)
-            .background(Color(UIColor(displayP3Red: 93/255, green: 176/255, blue: 117/255, alpha: 1)))
-            .controlSize(.extraLarge)
-            .foregroundColor(.white)
-            .font(.title)
-            .clipShape(.capsule)
-            .padding()
+//            Button("Log In", action: {
+//                print("Button Pressed")
+//            })
+//            .buttonStyle(.plain)
+//            .frame(height: 50)
+//            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+////            .padding(.all, 10)
+//            .background(Color(UIColor(displayP3Red: 93/255, green: 176/255, blue: 117/255, alpha: 1)))
+//            .controlSize(.extraLarge)
+//            .foregroundColor(.white)
+//            .font(.title)
+//            .clipShape(.capsule)
+//            .padding()
+            AppButton(btnTitle: "Login")
             
             Button("Forgot your password?", action: {
                 print("Forgot Button Pressed")

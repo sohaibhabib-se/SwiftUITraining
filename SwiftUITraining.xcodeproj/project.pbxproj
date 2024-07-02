@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0F260E2C2E8E24004A356E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0F260D2C2E8E24004A356E /* WelcomeView.swift */; };
+		DA0F26122C2E911A004A356E /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0F26112C2E911A004A356E /* AppButton.swift */; };
 		DA45C8802C188E1900EC2DF6 /* SwiftUITrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C87F2C188E1900EC2DF6 /* SwiftUITrainingApp.swift */; };
-		DA45C8822C188E1900EC2DF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8812C188E1900EC2DF6 /* ContentView.swift */; };
 		DA45C8842C188E1A00EC2DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA45C8832C188E1A00EC2DF6 /* Assets.xcassets */; };
 		DA45C8872C188E1A00EC2DF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA45C8862C188E1A00EC2DF6 /* Preview Assets.xcassets */; };
 		DA45C8912C188E1A00EC2DF6 /* SwiftUITrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8902C188E1A00EC2DF6 /* SwiftUITrainingTests.swift */; };
@@ -16,6 +17,7 @@
 		DA45C89D2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C89C2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift */; };
 		DA45C8AC2C188E9B00EC2DF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */; };
 		DA45C8AE2C1983B600EC2DF6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */; };
+		DAB2E9A62C32A3EE00AF6E0C /* AsyncAwaitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E9A52C32A3EE00AF6E0C /* AsyncAwaitDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0F260D2C2E8E24004A356E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DA0F26112C2E911A004A356E /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		DA45C87C2C188E1900EC2DF6 /* SwiftUITraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA45C87F2C188E1900EC2DF6 /* SwiftUITrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrainingApp.swift; sourceTree = "<group>"; };
-		DA45C8812C188E1900EC2DF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA45C8832C188E1A00EC2DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA45C8862C188E1A00EC2DF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA45C88C2C188E1A00EC2DF6 /* SwiftUITrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +51,7 @@
 		DA45C89C2C188E1A00EC2DF6 /* SwiftUITrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DAB2E9A52C32A3EE00AF6E0C /* AsyncAwaitDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA0F260F2C2E90F2004A356E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */,
+				DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */,
+				DA0F260D2C2E8E24004A356E /* WelcomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DA0F26102C2E9104004A356E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F26112C2E911A004A356E /* AppButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		DA45C8732C188E1900EC2DF6 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +120,12 @@
 		DA45C87E2C188E1900EC2DF6 /* SwiftUITraining */ = {
 			isa = PBXGroup;
 			children = (
+				DA0F26102C2E9104004A356E /* Components */,
+				DA0F260F2C2E90F2004A356E /* Screens */,
 				DA45C87F2C188E1900EC2DF6 /* SwiftUITrainingApp.swift */,
-				DA45C8812C188E1900EC2DF6 /* ContentView.swift */,
 				DA45C8832C188E1A00EC2DF6 /* Assets.xcassets */,
 				DA45C8852C188E1A00EC2DF6 /* Preview Content */,
-				DA45C8AB2C188E9B00EC2DF6 /* LoginView.swift */,
-				DA45C8AD2C1983B600EC2DF6 /* SignUpView.swift */,
+				DAB2E9A52C32A3EE00AF6E0C /* AsyncAwaitDemo.swift */,
 			);
 			path = SwiftUITraining;
 			sourceTree = "<group>";
@@ -265,8 +287,10 @@
 			files = (
 				DA45C8AE2C1983B600EC2DF6 /* SignUpView.swift in Sources */,
 				DA45C8AC2C188E9B00EC2DF6 /* LoginView.swift in Sources */,
-				DA45C8822C188E1900EC2DF6 /* ContentView.swift in Sources */,
 				DA45C8802C188E1900EC2DF6 /* SwiftUITrainingApp.swift in Sources */,
+				DA0F260E2C2E8E24004A356E /* WelcomeView.swift in Sources */,
+				DAB2E9A62C32A3EE00AF6E0C /* AsyncAwaitDemo.swift in Sources */,
+				DA0F26122C2E911A004A356E /* AppButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
